@@ -72,16 +72,16 @@
             justify-content: space-between;
             align-items: center;
             transition: all 0.3s ease;
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
+            /* background: rgba(255, 255, 255, 0.1); */
         }
 
         nav.scrolled {
             background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(15px);
-            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
             padding: 0.8rem 5%;
-            border-bottom: 1px solid #1b8d84;
+            border-bottom: 2px solid #559c96;
+            backdrop-filter: blur(10px);
         }
 
         .logo {
@@ -1053,11 +1053,11 @@
         /* Responsive */
         @media (max-width: 640px) {
             section {
-                padding: 4rem 5%;
+                padding: 5rem 5%;
             }
 
             .hero {
-                padding: 6rem 5% 4rem;
+                padding: 7rem 5% 4rem;
                 min-height: auto;
             }
 
@@ -1158,7 +1158,7 @@
 
         @media (max-width: 480px) {
             .hero {
-                padding: 5rem 5% 3rem;
+                padding: 6rem 5% 3rem;
             }
 
             .hero-text h1 {
